@@ -15,7 +15,8 @@ train.py has two key variables:
 - save_after: The model will be saved after every save_after epochs.
 
 The models will be stored in `/models` under the root directory.
-- When a model is saved, 3 files will be generated <br /> <br />
+- When a model is saved, 3 files will be generated
+
 It is recommended that the model is trained for at least 1000 epochs to see viable results.
 
 ### Testing
@@ -24,6 +25,7 @@ test.py has two key variables as well:
 - ckpt_path = the path to the actual model
 
 These variables will have a number in them, for example: `./models/mdnmodel.ckpt-1.meta` <br />
+
 Replace the numbers in both import_path and ckpt_path with the highest number (should be the same number) in `/models` to use the most recent save  
 
 After the model is loaded, an example of real data vs the GAN generated data is displayed on screen with matplotlib
