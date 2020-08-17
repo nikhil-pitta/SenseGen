@@ -14,9 +14,9 @@ train.py has two key variables:
 - num_epochs: The number of epochs the machine learning model will be trained on
 - save_after: The model will be saved after every save_after epochs.
 
-The models will be stored in `/models` under the root directory.  
-- When a model is saved, 3 files will be generated    
-It is recommended that the model is trained for at least 1000 epochs to see viable results.  
+The models will be stored in `/models` under the root directory.
+- When a model is saved, 3 files will be generated <br /> <br />
+It is recommended that the model is trained for at least 1000 epochs to see viable results.
 
 ### Testing
 test.py has two key variables as well:
