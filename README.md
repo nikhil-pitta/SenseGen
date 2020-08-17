@@ -1,5 +1,5 @@
 # SenseGen
-Implementation of [GitHub](https://arxiv.org/abs/1701.08886). Adapted from [this repo](https://github.com/nesl/sensegen). 
+Implementation of [SenseGen](https://arxiv.org/abs/1701.08886). Adapted from [this repo](https://github.com/nesl/sensegen). 
 
 ### Details
 The repo consists of a data set folder along with 5 other python files: 
@@ -23,8 +23,7 @@ test.py has two key variables as well:
 - import_path = the path to the .meta file in order to first load the model
 - ckpt_path = the path to the actual model
 
-These variables will have a number in them, for example:  
-`./models/mdnmodel.ckpt-1.meta`  
+These variables will have a number in them, for example: `./models/mdnmodel.ckpt-1.meta`  
 Replace the numbers in both import_path and ckpt_path with the highest number (should be the same number) in `/models` to use the most recent save  
 
 After the model is loaded, an example of real data vs the GAN generated data is displayed on screen with matplotlib
